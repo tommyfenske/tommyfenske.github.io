@@ -29,7 +29,7 @@ body {
     color:#2e2e2e;
     background: #faf9f6;
     border-top: 8px solid #d9d9d9;
-    border-bottom: 12px solid #3c6e71;
+    border-bottom: 12px solid #ffb703;
 }
 
 .btn-nav-container {
@@ -41,15 +41,15 @@ body {
 .btn {
     font-family: 'Poppins', sans-serif;
     color: #faf9f6;
-    background: #3c6e71;
+    background: #ffb703;
     border: none;
-    border-bottom: 4px solid #284b63;
-    border-left: 4px solid #284b63;
+    border-bottom: 4px solid #fb8500;
+    border-left: 4px solid #fb8500;
     border-radius: 10%;
 }
 
 .btn:hover {
-    background: #284b63;
+    background: #fb8500;
 }
 
 #btn-nav {
@@ -61,7 +61,7 @@ body {
 .section {
     background: #2e2e2e;
     border-top:8px solid #d9d9d9;
-    border-bottom: 12px solid #3c6e71;
+    border-bottom: 12px solid #ffb703;
 }
 
 .section-header {
