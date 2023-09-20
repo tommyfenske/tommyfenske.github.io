@@ -54,9 +54,13 @@ a {
     text-align: left;
 }
 
-#language-icons-container {
+.language-icons-container {
     display: flex;
     justify-content: center;
+}
+
+#icons-project {
+    justify-content: start;
 }
 
 .icon {
@@ -66,6 +70,10 @@ a {
     padding: 10px;
     border-radius: 20%;
     transition: scale 0.5s;
+}
+
+#icon-small {
+    width: 50px;
 }
 
 .icon:hover {
@@ -101,8 +109,8 @@ a {
 }
 
 #btn-nav {
-    font-size: 16px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 15px;
     margin: 0 25px;
 }
 
@@ -110,29 +118,47 @@ a {
     background: #faf9f6;
     border-top:12px solid #ffb703;
     border-bottom: 8px solid #d9d9d9;
+    color: #2e2e2e;
+    text-align: left;
+    padding: 30px 0;
 }
 
 .section-header {
-    color: #2e2e2e;
+    text-align: center;
+    padding: 0 100px;
 }
 
-.project-button-container {
+.project-container {
     display: flex;
-    justify-content: center;
-    align-content: center;
+    justify-content: start;
+    padding: 0 60px;
+}
+
+.project-organizer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
 }
 
 #btn-project {
-    margin: 35px;
+    margin: 35px 80px 35px 0;
     min-width: 360px;
     min-height: 240px;
     font-size: 20px;
     border-radius: 5%;
 }
 
-.circuit-design {
-    background-image: url("images/IMG_2047.PNG");
-    background-size: 500px;
-    background-repeat: no-repeat;
-    background-position: right bottom 250px;
+.project-img {
+    margin: 35px 80px 35px 0;
+    min-width: 360px;
+    min-height: 240px;
+    font-size: 20px;
+    border-radius: 5%;
+    background: #2e2e2e;
+    transition: scale 0.5s;
+}
+
+.project-img:hover {
+    scale: 1.1;
 }
