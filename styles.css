@@ -6,6 +6,11 @@ body {
     background-color: #faf9f6;
 }
 
+a {
+    color:#2e2e2e;
+    text-decoration: none;
+}
+
 .header {
     text-align: left;
     background: #2e2e2e;
@@ -20,10 +25,16 @@ body {
 
 .header-text {
     font-size: 50px;
-    margin-left: 40px;
+    margin-left: 80px;
     margin-top: 0;
-    margin-bottom: 0;;
+    margin-bottom: 0;
+    transition: color 2s;
 }
+
+.header-text:hover {
+    color: #fb8500;
+}
+
 
 #size-up {
     font-size: 80px;
@@ -34,6 +45,31 @@ body {
     background: #faf9f6;
     border-top: 12px solid #ffb703;
     border-bottom: 12px solid #ffb703;
+    padding: 40px;
+}
+
+#about-text {
+    margin-left: 60px;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+#language-icons-container {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    width: 75px;
+    margin: 10px 20px 30px 20px;
+    background: #d9d9d9;
+    padding: 10px;
+    border-radius: 20%;
+    transition: scale 0.5s;
+}
+
+.icon:hover {
+    scale: 1.25;
 }
 
 .nav {
@@ -52,20 +88,21 @@ body {
 .btn {
     font-family: 'Poppins', sans-serif;
     color: #faf9f6;
+    text-shadow: 0 0 1px #2e2e2e;
     background: #ffb703;
     border: none;
-    border-bottom: 4px solid #fb8500;
-    border-left: 4px solid #fb8500;
-    border-radius: 10%;
+    border-radius: 10px;
+    transition: scale 0.25s;
 }
 
 .btn:hover {
     background: #fb8500;
+    scale: 1.1;
 }
 
 #btn-nav {
     font-size: 16px;
-    padding: 10;
+    padding: 10px;
     margin: 0 25px;
 }
 
