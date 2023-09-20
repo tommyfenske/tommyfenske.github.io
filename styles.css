@@ -7,29 +7,40 @@ body {
 }
 
 .header {
+    text-align: left;
     background: #2e2e2e;
     background-image: url("images/IMG_2047.PNG");
     background-repeat: no-repeat;
     background-position: left -250px bottom -50px;
     background-size: 700px;
     margin: 0;
-    padding: 10px 0 10px 0;
+    padding: 100px 0 40px 0;
+    border-bottom: 8px solid #d9d9d9;
 }
 
 .header-text {
-    text-shadow: 0 0 4px black;
-    font-size: 24px;
+    font-size: 50px;
+    margin-left: 40px;
+    margin-top: 0;
+    margin-bottom: 0;;
 }
 
-#header-link {
-    color: #faf9f6;
+#size-up {
+    font-size: 80px;
+}
+
+.about {
+    color:#2e2e2e;
+    background: #faf9f6;
+    border-top: 12px solid #ffb703;
+    border-bottom: 12px solid #ffb703;
 }
 
 .nav {
-    color:#2e2e2e;
-    background: #faf9f6;
+    color:#faf9f6;
+    background: #2e2e2e;
     border-top: 8px solid #d9d9d9;
-    border-bottom: 12px solid #ffb703;
+    border-bottom: 12px solid #d9d9d9;
 }
 
 .btn-nav-container {
@@ -59,13 +70,13 @@ body {
 }
 
 .section {
-    background: #2e2e2e;
-    border-top:8px solid #d9d9d9;
-    border-bottom: 12px solid #ffb703;
+    background: #faf9f6;
+    border-top:12px solid #ffb703;
+    border-bottom: 8px solid #d9d9d9;
 }
 
 .section-header {
-    color: #faf9f6;
+    color: #2e2e2e;
 }
 
 .project-button-container {
