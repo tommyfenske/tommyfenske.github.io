@@ -1,0 +1,90 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #faf9f6;
+    margin: 0;
+    background-color: #faf9f6;
+}
+
+.header {
+    background: #2e2e2e;
+    background-image: url("images/IMG_2047.PNG");
+    background-repeat: no-repeat;
+    background-position: left -250px bottom -50px;
+    background-size: 700px;
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+
+.header-text {
+    text-shadow: 0 0 4px black;
+    font-size: 24px;
+}
+
+#header-link {
+    color: #faf9f6;
+}
+
+.nav {
+    color:#2e2e2e;
+    background: #faf9f6;
+    border-top: 8px solid #d9d9d9;
+    border-bottom: 12px solid #ffb703;
+}
+
+.btn-nav-container {
+    display: flex;
+    margin: 0 100px 35px;
+    justify-content: center;
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    color: #faf9f6;
+    background: #ffb703;
+    border: none;
+    border-bottom: 4px solid #fb8500;
+    border-left: 4px solid #fb8500;
+    border-radius: 10%;
+}
+
+.btn:hover {
+    background: #fb8500;
+}
+
+#btn-nav {
+    font-size: 16px;
+    padding: 10;
+    margin: 0 25px;
+}
+
+.section {
+    background: #2e2e2e;
+    border-top:8px solid #d9d9d9;
+    border-bottom: 12px solid #ffb703;
+}
+
+.section-header {
+    color: #faf9f6;
+}
+
+.project-button-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#btn-project {
+    margin: 35px;
+    min-width: 360px;
+    min-height: 240px;
+    font-size: 20px;
+    border-radius: 5%;
+}
+
+.circuit-design {
+    background-image: url("images/IMG_2047.PNG");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: right bottom 250px;
+}
