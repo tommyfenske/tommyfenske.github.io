@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-    text-align: left;
+    text-align: center;
     background: #3e3e3e;
     background-image: url("images/motherboard.PNG");
     background-repeat: no-repeat;
@@ -155,12 +155,13 @@ body {
 }
 
 .link {
+    font-family: 'Poppins', sans-serif;
     width: 100px;
     height: 50px;
     margin: 10px 5px;
     border: 2px solid #2e2e2e;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 15px;
     transition: scale .25s;
 }
 
@@ -203,7 +204,7 @@ body {
 }
 
 #project-img-blackjack {
-    background-image: url("images/blackjack-screenshot.png");
+    background-image: url("images/blackjack.png");
     background-size: 110%;
     background-position: center;
     background-repeat: no-repeat;
