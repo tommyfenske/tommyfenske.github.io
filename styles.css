@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-    text-align: center;
+    text-align: right;
     background: #3e3e3e;
     background-image: url("images/motherboard.PNG");
     background-repeat: no-repeat;
