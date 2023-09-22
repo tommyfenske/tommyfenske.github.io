@@ -8,7 +8,7 @@ body {
 
 .header {
     text-align: right;
-    background: #3e3e3e;
+    background:#3e3e3e;
     background-image: url("images/motherboard.PNG");
     background-repeat: no-repeat;
     background-position: left -250px bottom -50px;
@@ -20,7 +20,7 @@ body {
 
 .header-text {
     font-size: 50px;
-    margin: 0 80px;
+    margin: 0 120px;
     transition: color 2s;
 }
 
@@ -75,23 +75,11 @@ body {
 
 #icon-small {
     width: 50px;
+    background: #faf9f6;
 }
 
 .icon:hover {
     scale: 1.25;
-}
-
-.nav {
-    color:#faf9f6;
-    background: #3e3e3e;
-    border-top: 8px solid #d9d9d9;
-    border-bottom: 12px solid #d9d9d9;
-}
-
-.btn-nav-container {
-    display: flex;
-    margin: 0 100px 35px;
-    justify-content: center;
 }
 
 .btn {
@@ -116,16 +104,18 @@ body {
 }
 
 .section {
-    background: #faf9f6;
-    border-top:12px solid #ffb703;
+    background: #3e3e3e;
+    border-top: 8px solid #d9d9d9;
     border-bottom: 8px solid #d9d9d9;
-    color: #2e2e2e;
+    color: #faf9f6;
+    text-shadow: 0 0 1px black;
     text-align: left;
     padding: 30px 0;
 }
 
 .section-header {
     text-align: center;
+    text-decoration: underline;
     padding: 0 100px;
 }
 
@@ -133,7 +123,7 @@ body {
     display: flex;
     justify-content: start;
     align-items: center;
-    padding: 0 60px 60px 60px;
+    padding: 60px 60px 60px 60px;
 }
 
 .project-organizer {
@@ -156,12 +146,14 @@ body {
 
 .link {
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     width: 100px;
     height: 50px;
     margin: 10px 5px;
     border: 2px solid #2e2e2e;
     border-radius: 10px;
     font-size: 15px;
+    text-decoration: underline;
     transition: scale .25s;
 }
 
@@ -178,11 +170,11 @@ body {
 }
 
 #website-link-button {
-    background: #d9d9d9;
+    background: #ffb703;
 }
 
 #website-link-button:hover {
-    background-color: #e9e9e9;
+    background-color: #ffa713;
 }
 
 .project-img {
@@ -196,7 +188,7 @@ body {
 }
 
 .project-img:hover {
-    scale: 1.1;
+    scale: 1.05;
 }
 
 #project-img-personal-website {
@@ -208,4 +200,12 @@ body {
     background-size: 110%;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.project-separator {
+    background: #fb8500;
+    height: 4px;
+    width: 50%;
+    margin: auto;
+    border-radius: 4px;
 }
