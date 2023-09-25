@@ -75,6 +75,8 @@ body {
 
 #icon-small {
     width: 50px;
+    margin-left: 0;
+    margin-right: 25px;
     background: #faf9f6;
 }
 
