@@ -28,7 +28,7 @@ body {
     color: #fb8500;
 }
 
-#metro-link {
+a {
     color: #2e2e2e;
     text-decoration: none;
 }
@@ -108,7 +108,7 @@ body {
 .section {
     background: #3e3e3e;
     border-top: 8px solid #d9d9d9;
-    border-bottom: 8px solid #d9d9d9;
+    border-bottom: 12px solid #ffb703;
     color: #faf9f6;
     text-shadow: 0 0 1px black;
     text-align: left;
@@ -210,4 +210,30 @@ body {
     width: 50%;
     margin: auto;
     border-radius: 4px;
+}
+
+#contacts-organizer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-div {
+    text-align: center;
+    background-color: #faf9f6;
+    color: #2e2e2e;
+    border-radius: 10px;
+    width: 400px;
+    margin: 20px;
+    padding: 30px 20px 10px 20px;
+    transition: scale 0.25s;
+}
+
+.contact-div:hover {
+    background: #d9d9d9;
+    scale: 1.05;
+}
+
+.contact-img {
+    width: 50px;
 }
