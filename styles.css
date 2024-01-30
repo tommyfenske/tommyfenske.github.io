@@ -28,12 +28,20 @@ body {
     color: #fb8500;
 }
 
-a {
+#metro-link {
     color: #2e2e2e;
     text-decoration: none;
 }
 
 #metro-link:hover {
+    color: #6e6e6e;
+}
+
+#project-link {
+    color: #d9d9d9;
+}
+
+#project-link:hover {
     color: #6e6e6e;
 }
 
@@ -200,6 +208,13 @@ a {
 #project-img-blackjack {
     background-image: url("images/blackjack.png");
     background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#project-img-jetpack {
+    background-image: url("images/jetpackjoyride.png");
+    background-size: 80%;
     background-position: center;
     background-repeat: no-repeat;
 }
