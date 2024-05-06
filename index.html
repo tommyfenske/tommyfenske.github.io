@@ -1,147 +1,82 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,200&display=swap" rel="stylesheet">
-    </head>
-
-    <body>
-        <div class="header">
-            <h3 class="header-text">Hi, I'm</h3>
-            <h1 class="header-text" id="size-up">Thomas J. Fenske</h1>
-        </div>
-
-        <div class="about">
-            <h1 id="about-text">
-                I'm currently a freshman at 
-                    <a id="metro-link" href="https://www.metrostate.edu/" target="_blank">
-                        Metropolitan State University
-                    </a>
-                in Saint Paul, Minnesota. When I'm not studying Computer Science at school, 
-                 I'm making cool projects online, skateboarding, or playing video games. 
-            </h1>
-
-            <h2>Currently I use...</h2>
-            <div class="language-icons-container">
-                <div>
-                    <img class="icon" src="images/language-icons/html5.png">
-                    <img class="icon"src="images/language-icons/css3.png">
-                    <img class="icon"src="images/language-icons/javascript-original.png">
-                    <img class="icon"src="images/language-icons/firebase.png">
-                    <img class="icon"src="images/language-icons/github-wordless.png">
-                    <img class="icon"src="images/language-icons/visualstudio.png">
-                </div>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thomas Fenske</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+  <body>
+    <header>
+        <header>
+            <div>
+                <h1>// thomas fenske</h1>  
+                <table>
+                    <tr>
+                        <td><a href="index.html">[home]</a></td>
+                        <td><a href="projects.html">projects</a></td>
+                        <td><a href="games.html">games</a></td>
+                        <td><a href="hobby.html">about</a></td>
+                    </tr>
+                </table>
             </div>
-        </div>
-
-        <div class="section" id="project">
-            <h1 class="section-header">My Projects</h1>
-
-            <div class="project-container">
-                <a href="https://thomasfenske-blackjack.netlify.app/" target="_blank">
-                    <div class="project-img" id="project-img-blackjack"></div>
-                </a>
-                <div class="project-organizer">
-                    <h1>Blackjack Game</h1>
-                    <h3>
-                        My Blackjack game was made using HTML, CSS, and JavaScript. I learned how to interact with HTML files and elements
-                        using JavaScript, create a rudimentary AI for the "dealer", and implement arrays to emulate a real deck of cards to 
-                        replace generating random numbers for card values. A Chrome Extension version was submitted, reviewed, and 
-                        successfully published to the Chrome Web Store.
-                    </h3>
-                    <div class="link-icon-container">
-                        <div class="language-icons-container" id="icons-project">
-                            <img class="icon" id="icon-small" src="images/language-icons/javascript-original.png">
-                            <img class="icon" id="icon-small" src="images/language-icons/html5.png">
-                            <img class="icon" id="icon-small" src="images/language-icons/css3.png">
-                        </div>
-                        <div class="link-container">
-                            <a href="https://github.com/tommyfenske/blackjack" target="_blank"><button class="link" id="github-button">Github</button></a>
-                            <a href="https://thomasfenske-blackjack.netlify.app/" target="_blank"><button class="link" id="website-link-button">Play Game</button></a>
-                        </div>
-                    </div>
+        </header>
+    </header>
+    <main id="about">
+        <div class="bracket" id="limit-width">
+            <h2>about me {</h3>
+                <div class="indent">
+                    <p>
+                        I'm currently a freshman at Metropolitan State University in Saint Paul, Minnesota. 
+                        When I'm not studying Computer Science at school, I'm making cool projects online, 
+                        skateboarding, or playing video games.
+                    </p>    
+                    <br/>    
+                    <img class="bracket-img" src="images/tommy.JPG"/>    
                 </div>
-            </div>
-
-            <div class="project-separator"></div>
-
-            <div class="project-container">
-                <a href="jetpackjoyride.html" target="_blank">
-                    <div class="project-img" id="project-img-jetpack"></div>
-                </a>
-                <div class="project-organizer">
-                    <h1>Jetpack Joyride De-Make</h1>
-                    <h3>
-                        I remade the popular mobile game Jetpack Joyride inside the game engine, <a id="project-link" href="https://www.lexaloffle.com/pico-8.php">Pico-8.</a> 
-                        Pico-8 only allows 16 colors, 4 sound channels, and 256 8x8 sprites, hence the name "De-make". I learned to code using Pico-8's
-                        version of Lua. The engine's limitations meant Object Oriented, abstract, and reusable code was a priority. I made all code,
-                        sounds, and sprites. This was made as a result of my participation in the <a id="project-link" href="https://20_games_challenge.gitlab.io/">20 Games Challenge.</a>
-                    </h3>
-                    <div class="link-icon-container">
-                        <div class="language-icons-container" id="icons-project">
-                            <img class="icon" id="icon-small" src="images/language-icons/Lua-logo.png">
-                            <img class="icon" id="icon-small" src="images/language-icons/pico8.png">
-                            <img class="icon" id="icon-small" src="images/language-icons/html5.png">
-                            
-                        </div>
-                        <div class="link-container">
-                            <a href="https://github.com/tommyfenske/jetpack-joyride-demake" target="_blank"><button class="link" id="github-button">Github</button></a>
-                            <a href="jetpackjoyride.html" target="_blank"><button class="link" id="website-link-button">Play Game</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="project-separator"></div>
-
-            <div class="project-container">
-                <a href="https://github.com/tommyfenske/tommyfenske.github.io" target="_blank">
-                    <div class="project-img" id="project-img-personal-website"></div>
-                </a>
-                <div class="project-organizer">
-                    <h1>Portfolio Website</h1>
-                    <h3>
-                        This portfolio website was made using code and assets exclusively made and written by me, and deployed using Github pages. 
-                        I learned how to write and refactor HTML and CSS code; implement animations and links; and basic UI/UX design to format, 
-                        organize, and make my website more responsive. I hope to improve it with JavaScript features in the future!
-                    </h3>
-                    <div class="link-icon-container">
-                        <div class="language-icons-container" id="icons-project">
-                            <img class="icon" id="icon-small" src="images/language-icons/html5.png">
-                            <img class="icon" id="icon-small" src="images/language-icons/css3.png">
-                        </div>
-                        <div class="link-container">
-                            <a href="https://github.com/tommyfenske/tommyfenske.github.io" target="_blank"><button class="link" id="github-button">Github</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>         
-
+                <h2>}</h2>
         </div>
-
-        <div class="section" id="contact">
-            <h1 class="section-header">Contact Me</h1>
-
-            <div id="contacts-organizer">
-
-                <a href="mailto:t.fenske619@gmail.com"><div class="contact-div">
-                    <img class="contact-img" src="images/language-icons/email.png">
-                    <h1>t.fenske619@gmail.com</h1>
-                </div></a>
-
-                <a href="www.linkedin.com/in/thomas-fenske-2b7a63293"><div class="contact-div">
-                    <img class="contact-img" src="images/language-icons/LI-In-Bug.png">
-                    <h1>LinkedIn</h1>
-                </div></a>
-
-                <a href="https://github.com/tommyfenske" target="_blank"><div class="contact-div">
-                    <img class="contact-img" src="images/language-icons/github-wordless.png">
-                    <h1>GitHub</h1>
-                </div></a>
-            </div>
-
+        <div class="bracket" id="limit-width">
+            <h2>my skills {</h3>
+                <div class="indent">
+                    <h3>JavaScript:</h3>
+                    <p>
+                        I have 2+ years of experience working with JavaScript to create websites and web apps and access APIs. 
+                        I use libraries like Processing.js and p5.js to create interactive programs, visualizations, and games.
+                    </p>
+                    <br/>
+                    <h3>HTML / CSS:</h3>
+                    <p>
+                        I have a year of experience with HTML and CSS, creating websites and web apps, 
+                        and to interface with JavaScript to improve my apps further.
+                    </p>
+                    <br/>
+                    <h3>Game Dev:</h3>
+                    <p>
+                        I have a year of experience developing games using the engines Pico-8 and Godot, using game development patterns 
+                        like state machines, event driven, and object-oriented programming.
+                    </p>
+                </div>
+                <h2>}</h2>
         </div>
-    </body>
+    </main>
+    <footer>
+        <div>
+            <p>[</p></td>
+            <a href="mailto:t.fenske619@gmail.com" target="_blank"><img src="images/icons/mail.svg"/></a>
+            <a href="https://www.linkedin.com/in/thomas-fenske-2b7a63293/" target="_blank"><img src="images/icons/linkedin.svg"/></a>
+            <a href="https://github.com/tommyfenske" target="_blank"><img src="images/icons/github.svg"/></a>
+            <p>]</p>
+        </div>
+    </footer>
+	<script src="index.js"></script>
+  </body>
 </html>
