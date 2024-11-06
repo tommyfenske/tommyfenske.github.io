@@ -2,7 +2,7 @@ html {
     background-color: #0C0C0C;
     color: #f4f3ee;
     font-family: "Source Code Pro", monospace;
-    font-size: 28px;
+    font-size: 20px;
     padding: 0 50px;
 }
 
@@ -44,7 +44,7 @@ a {
 
 .bracket-img {
     object-fit: contain;
-    width: 400px;
+    width: 300px;
     max-width: 80%;
     border: 1px solid whitesmoke;
     border-radius: 10px;
